@@ -1,0 +1,47 @@
+name: Draft weekly blog post
+
+# Mondays 09:30 America/New_York. GitHub cron is UTC and does not follow DST:
+# 13:30 UTC = 09:30 EDT (Mar-Nov). Change to '30 14 * * 1' for 09:30 EST.
+on:
+  schedule:
+    - cron: '30 13 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Write the post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node tools/write-post.mjs
+
+      - name: Check it against the quality gate before asking for a review
+        run: |
+          node tools/build-blog.js .
+          node tools/qa-blog.js .
+          git checkout -- . ':!js/blog-data.js'
+
+      - name: Open the pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          SLUG=$(cat .post-slug); TITLE=$(cat .post-title)
+          git config user.name  "Lucid Reels Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "post/$SLUG"
+          git add js/blog-data.js
+          git commit -m "Draft: $TITLE"
+          git push -u origin "post/$SLUG"
+          gh pr create --base main --head "post/$SLUG" \
+            --title "New post: $TITLE" --body-file .post-pr.md
