@@ -39,7 +39,10 @@ Return ONLY a JSON object, no prose around it, with exactly these keys:
   date         "${today}"
   readMins     integer, realistic for the length
   excerpt      2 sentences, plain text, no HTML
-  body         600-900 words of HTML using ONLY <p>, <h2> and <strong> tags, in 4-6 <h2> sections
+  body         an ARRAY of strings, 600-900 words in total. Each array element is ONE
+               complete HTML block: either "<p>...</p>" or "<h2>...</h2>". Use 4-6 <h2>
+               sections, each followed by one or more <p>. <strong> may appear inside a <p>.
+               No other tags. Do not return the body as a single string.
 
 Rules for the body:
 - Concrete and useful to a working agent. Specific advice, not filler.
@@ -61,6 +64,12 @@ let post;
 try { post = JSON.parse(text.replace(/^[\s\S]*?```(?:json)?\s*/, '').replace(/```[\s\S]*$/, '').trim() || text); }
 catch { try { post = JSON.parse(text.trim()); } catch (e) { console.error('Model did not return JSON:\n' + text.slice(0, 800)); process.exit(1); } }
 
+// body must be an array of HTML blocks, matching the existing schema.
+// Accept a single string too and split it, so one stray format does not waste a run.
+if (typeof post.body === 'string') {
+  post.body = post.body.replace(/>\s*</g, '>\n<').split('\n').map(s => s.trim()).filter(Boolean);
+}
+
 // ---------- validate before it can ever reach a human ----------
 const problems = [];
 const need = ['slug','title','h1','description','market','date','readMins','excerpt','body'];
@@ -69,9 +78,15 @@ if (post.slug && slugs.has(post.slug)) problems.push(`slug already exists: ${pos
 if (post.title && post.title.length > 65) problems.push(`title ${post.title.length} chars (max 65)`);
 if (post.description && (post.description.length < 120 || post.description.length > 160))
   problems.push(`description ${post.description.length} chars (want 120-160)`);
-const words = String(post.body || '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+if (!Array.isArray(post.body)) problems.push('body is not an array of HTML blocks');
+const bodyText = Array.isArray(post.body) ? post.body.join('\n') : '';
+const words = bodyText.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
 if (words < 550 || words > 1000) problems.push(`body ${words} words (want 600-900)`);
-if (/<(?!\/?(p|h2|strong)\b)[a-z]/i.test(String(post.body || ''))) problems.push('body uses tags other than p/h2/strong');
+if (/<(?!\/?(p|h2|strong)\b)[a-z]/i.test(bodyText)) problems.push('body uses tags other than p/h2/strong');
+if (Array.isArray(post.body) && !post.body.every(b => /^<(p|h2)>[\s\S]*<\/(p|h2)>$/.test(String(b).trim())))
+  problems.push('every body element must be one complete <p> or <h2> block');
+if (Array.isArray(post.body) && !post.body.some(b => /^<h2>/.test(String(b).trim())))
+  problems.push('body has no <h2> sections');
 if (POSTS.some(p => p.title.toLowerCase() === String(post.title || '').toLowerCase())) problems.push('duplicate title');
 if (problems.length) { console.error('Draft rejected:\n  ' + problems.join('\n  ')); process.exit(1); }
 
@@ -86,7 +101,9 @@ const entry = `{
  date: ${S(post.date)},
  readMins: ${Number(post.readMins) || 6},
  excerpt: ${S(post.excerpt)},
- body: ${S(post.body)}
+ body: [
+${post.body.map(b => '  ' + S(b)).join(',\n')}
+ ]
 },
 `;
 const anchor = raw.indexOf('window.BLOG = [');
@@ -95,7 +112,7 @@ const at = raw.indexOf('[', anchor) + 1;
 fs.writeFileSync(DATA, raw.slice(0, at) + '\n' + entry + raw.slice(at).replace(/^\n/, ''));
 
 // ---------- side files for the pull request ----------
-const readable = String(post.body)
+const readable = post.body.join('\n')
   .replace(/<h2>/g, '\n## ').replace(/<\/h2>/g, '\n')
   .replace(/<\/?strong>/g, '**').replace(/<p>/g, '\n').replace(/<\/p>/g, '\n')
   .replace(/\n{3,}/g, '\n\n').trim();
