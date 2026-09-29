@@ -23,19 +23,31 @@ jobs:
       - name: Write the post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node tools/write-post.mjs
+        run: node tools/write-post.mjs 2>&1 | tee write-output.txt
 
       - name: Check it against the quality gate before asking for a review
+        id: gate
+        continue-on-error: true
         run: |
-          node tools/build-blog.js .
-          node tools/qa-blog.js .
-          git checkout -- . ':!js/blog-data.js'
+          node tools/build-blog.js . > build-output.txt 2>&1
+          node tools/qa-blog.js   . > qa-output.txt    2>&1
+
+      - name: If the gate failed, push the evidence to a debug branch
+        if: steps.gate.outcome == 'failure'
+        run: |
+          git config user.name  "Lucid Reels Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "debug/gate-${{ github.run_number }}"
+          git add -f js/blog-data.js qa-output.txt build-output.txt write-output.txt
+          git commit -m "Quality gate failure - diagnostics for run ${{ github.run_number }}"
+          git push -u origin HEAD
+          echo "Quality gate blocked this draft. Diagnostics on debug/gate-${{ github.run_number }}."
+          exit 1
 
       - name: Open the pull request
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
+          git checkout -- . ':!js/blog-data.js'
           SLUG=$(cat .post-slug); TITLE=$(cat .post-title)
           git config user.name  "Lucid Reels Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,3 +57,5 @@ jobs:
           git push -u origin "post/$SLUG"
           gh pr create --base main --head "post/$SLUG" \
             --title "New post: $TITLE" --body-file .post-pr.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
