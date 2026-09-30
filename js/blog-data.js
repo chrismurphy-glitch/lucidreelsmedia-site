@@ -4,6 +4,43 @@
    Newest post first. date = ISO yyyy-mm-dd. */
 window.BLOG = [
 {
+ slug: "photographing-historic-bungalows-st-petersburg",
+ title: "Photographing Historic Bungalows in St. Petersburg",
+ h1: "How to Photograph Historic Bungalows and Older Homes in St. Petersburg",
+ description: "How to market St. Petersburg's historic bungalows and older homes with photo and video that show character, light and flow in small rooms.",
+ market: "St. Petersburg",
+ date: "2026-09-30",
+ readMins: 5,
+ excerpt: "Older St. Petersburg homes sell on character, but small rooms, low ceilings and mixed lighting make that character hard to capture. Here is how to plan the shoot so the media shows what buyers are actually falling for.",
+ body: [
+  "<h2>Sell the character, not just the square footage</h2>",
+  "<p>Buyers who search neighborhoods like Kenwood, Old Northeast, Crescent Lake or Euclid-St. Paul are usually not shopping on square footage alone. They want the front porch, the original wood floors, the arched doorways, the tree-lined block. If your listing media reads like a generic tract-home shoot, you lose the one advantage an older home has.</p>",
+  "<p>Before the shoot, walk the property and write down the three or four features you would point out in person. Share that list with your photographer. A good media team will build the shot list around those features first and fill in the standard room coverage second.</p>",
+  "<h2>Small rooms and low ceilings need restraint</h2>",
+  "<p>The most common mistake with older homes is shooting too wide. An ultra-wide lens stretches corners, bends door frames and makes a cozy 1920s living room look distorted and oddly cavernous. Buyers notice the mismatch the moment they walk in, and that first impression at the showing works against you.</p>",
+  "<p>Ask your photographer how they handle tight spaces. The usual answer is a moderately wide lens, a camera height near the middle of the wall, and corrected verticals so the door frames stay straight. In a room too small to capture in one frame, two angles that show how it connects to the next space often work better than one stretched shot.</p>",
+  "<p>Low ceilings also mean less room for lighting tricks. Bounced flash off a nearby ceiling is easier in older homes, but it needs a light hand. Plan for natural window light to do most of the work, and treat any added light as a supplement.</p>",
+  "<h2>Deal with mixed lighting and old windows</h2>",
+  "<p>Older homes tend to have a patchwork of lighting: original fixtures with warm bulbs, a newer lamp with a cooler one, and windows that are either small or covered by a mature canopy of oaks and palms. In the Florida sun, that can mean a dark interior with a bright, blown-out window in the same frame.</p>",
+  "<p>Two things help. First, replace mismatched bulbs with one consistent color temperature before the shoot, and turn on every fixture you want to appear lit. Second, ask whether the photographer blends multiple exposures to keep window views visible. Buyers like seeing the garden or the porch through the glass, and a clean window view is often worth more than an evenly bright wall.</p>",
+  "<p>Shade also works in your favor outdoors. Under a heavy tree canopy the exterior can look moody at midday, so ask about timing. Early or late light usually flatters a bungalow facade better than harsh overhead sun.</p>",
+  "<h2>Shots older homes need that newer ones do not</h2>",
+  "<p>Older listings often have features that a standard package of interiors would skip. Request these deliberately:</p>",
+  "<p><strong>The porch and entry sequence.</strong> Capture the porch from the street, then from the porch looking out. Buyers want to imagine sitting there.</p>",
+  "<p><strong>Original details up close.</strong> Built-ins, tile, hardware, fireplaces and trim work belong in a few detail frames, kept separate from the room shots so the room shots stay clean.</p>",
+  "<p><strong>Detached garages, guest cottages and garage apartments.</strong> These are common on older St. Petersburg lots and can change how a buyer values the property. Show them from the main house and from inside, and make it clear how they relate to the yard.</p>",
+  "<p><strong>The block itself.</strong> Brick streets, sidewalks, neighboring homes and mature trees are part of the appeal. A short exterior sequence or a few aerial frames, where flight is permitted and appropriate, can show the setting better than words in the description.</p>",
+  "<h2>Use video to show flow and setting</h2>",
+  "<p>Older floor plans are often less open than what buyers see in new construction, and that is not always a weakness. Video is the best tool to show how rooms connect, how the light moves through the house and how the yard feels from the back door.</p>",
+  "<p>A good bungalow walkthrough follows the path a buyer would take: curb, porch, front door, main living areas, kitchen, bedrooms, then out to the yard. Slow, steady movement matters more here than in a larger home, because quick pans in small rooms feel disorienting. Ask to see a sample of how the videographer handles narrow hallways and tight kitchens before you book.</p>",
+  "<h2>Prepare the house and ask the right questions</h2>",
+  "<p>Older homes reward a little prep. Clear countertops, remove cords and small appliances, and put away anything that makes an already compact room feel crowded. Open blinds fully, and check that porch furniture and landscaping look intentional. If the home has been updated in some places and not others, decide with your seller which areas to feature and which to show simply and honestly.</p>",
+  "<p>When you talk to a media company, ask about these points:</p>",
+  "<p>How do they handle lens choice in small rooms, and can they show examples? Do they blend exposures for windows? Will the shot list include detail frames and outbuildings? What is the delivery timeline for your date range, and what does the package cost for a home of this size? Get those answers in writing so there are no surprises after the shoot.</p>",
+  "<p>A historic home already has a story. The job of the photography and video is to let buyers see it clearly, without stretching, darkening or hiding what makes the house worth touring.</p>"
+ ]
+},
+{
  slug: "how-to-choose-a-real-estate-media-company-in-tampa",
  title: "How to Choose a Real Estate Media Company in Tampa (2026 Guide)",
  h1: "How to Choose a Real Estate Media Company in Tampa",
