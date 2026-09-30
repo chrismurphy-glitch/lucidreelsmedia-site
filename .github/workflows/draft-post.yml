@@ -45,8 +45,13 @@ jobs:
           exit 1
 
       - name: Open the pull request
+        id: pr
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -e
+          exec > pr-output.txt 2>&1
+          set -ex
           git checkout -- . ':!js/blog-data.js'
           SLUG=$(cat .post-slug); TITLE=$(cat .post-title)
           git config user.name  "Lucid Reels Bot"
@@ -57,5 +62,14 @@ jobs:
           git push -u origin "post/$SLUG"
           gh pr create --base main --head "post/$SLUG" \
             --title "New post: $TITLE" --body-file .post-pr.md
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: If the pull request step failed, push its output where it can be read
+        if: steps.pr.outcome == 'failure'
+        run: |
+          git config user.name  "Lucid Reels Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "debug/pr-${{ github.run_number }}"
+          git add -f pr-output.txt js/blog-data.js .post-pr.md || true
+          git commit -m "Diagnostics for run ${{ github.run_number }}" || true
+          git push -f -u origin HEAD
+          exit 1
