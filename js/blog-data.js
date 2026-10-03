@@ -1,0 +1,151 @@
+/* Lucid Reels Media — SINGLE SOURCE OF TRUTH for the blog.
+   Add a post here and run tools/build-blog.js; it regenerates blog.html,
+   every blog/<slug>.html page, sitemap.xml and the About-page teaser.
+   Newest post first. date = ISO yyyy-mm-dd. */
+window.BLOG = [
+{
+ slug: "photographing-historic-bungalows-st-petersburg",
+ title: "Photographing Historic Bungalows in St. Petersburg",
+ h1: "How to Photograph Historic Bungalows and Older Homes in St. Petersburg",
+ description: "How to market St. Petersburg's historic bungalows and older homes with photo and video that show character, light and flow in small rooms.",
+ market: "St. Petersburg",
+ date: "2026-09-30",
+ readMins: 5,
+ excerpt: "Older St. Petersburg homes sell on character, but small rooms, low ceilings and mixed lighting make that character hard to capture. Here is how to plan the shoot so the media shows what buyers are actually falling for.",
+ body: [
+  "<h2>Sell the character, not just the square footage</h2>",
+  "<p>Buyers who search neighborhoods like Kenwood, Old Northeast, Crescent Lake or Euclid-St. Paul are usually not shopping on square footage alone. They want the front porch, the original wood floors, the arched doorways, the tree-lined block. If your listing media reads like a generic tract-home shoot, you lose the one advantage an older home has.</p>",
+  "<p>Before the shoot, walk the property and write down the three or four features you would point out in person. Share that list with your photographer. A good media team will build the shot list around those features first and fill in the standard room coverage second.</p>",
+  "<h2>Small rooms and low ceilings need restraint</h2>",
+  "<p>The most common mistake with older homes is shooting too wide. An ultra-wide lens stretches corners, bends door frames and makes a cozy 1920s living room look distorted and oddly cavernous. Buyers notice the mismatch the moment they walk in, and that first impression at the showing works against you.</p>",
+  "<p>Ask your photographer how they handle tight spaces. The usual answer is a moderately wide lens, a camera height near the middle of the wall, and corrected verticals so the door frames stay straight. In a room too small to capture in one frame, two angles that show how it connects to the next space often work better than one stretched shot.</p>",
+  "<p>Low ceilings also mean less room for lighting tricks. Bounced flash off a nearby ceiling is easier in older homes, but it needs a light hand. Plan for natural window light to do most of the work, and treat any added light as a supplement.</p>",
+  "<h2>Deal with mixed lighting and old windows</h2>",
+  "<p>Older homes tend to have a patchwork of lighting: original fixtures with warm bulbs, a newer lamp with a cooler one, and windows that are either small or covered by a mature canopy of oaks and palms. In the Florida sun, that can mean a dark interior with a bright, blown-out window in the same frame.</p>",
+  "<p>Two things help. First, replace mismatched bulbs with one consistent color temperature before the shoot, and turn on every fixture you want to appear lit. Second, ask whether the photographer blends multiple exposures to keep window views visible. Buyers like seeing the garden or the porch through the glass, and a clean window view is often worth more than an evenly bright wall.</p>",
+  "<p>Shade also works in your favor outdoors. Under a heavy tree canopy the exterior can look moody at midday, so ask about timing. Early or late light usually flatters a bungalow facade better than harsh overhead sun.</p>",
+  "<h2>Shots older homes need that newer ones do not</h2>",
+  "<p>Older listings often have features that a standard package of interiors would skip. Request these deliberately:</p>",
+  "<p><strong>The porch and entry sequence.</strong> Capture the porch from the street, then from the porch looking out. Buyers want to imagine sitting there.</p>",
+  "<p><strong>Original details up close.</strong> Built-ins, tile, hardware, fireplaces and trim work belong in a few detail frames, kept separate from the room shots so the room shots stay clean.</p>",
+  "<p><strong>Detached garages, guest cottages and garage apartments.</strong> These are common on older St. Petersburg lots and can change how a buyer values the property. Show them from the main house and from inside, and make it clear how they relate to the yard.</p>",
+  "<p><strong>The block itself.</strong> Brick streets, sidewalks, neighboring homes and mature trees are part of the appeal. A short exterior sequence or a few aerial frames, where flight is permitted and appropriate, can show the setting better than words in the description.</p>",
+  "<h2>Use video to show flow and setting</h2>",
+  "<p>Older floor plans are often less open than what buyers see in new construction, and that is not always a weakness. Video is the best tool to show how rooms connect, how the light moves through the house and how the yard feels from the back door.</p>",
+  "<p>A good bungalow walkthrough follows the path a buyer would take: curb, porch, front door, main living areas, kitchen, bedrooms, then out to the yard. Slow, steady movement matters more here than in a larger home, because quick pans in small rooms feel disorienting. Ask to see a sample of how the videographer handles narrow hallways and tight kitchens before you book.</p>",
+  "<h2>Prepare the house and ask the right questions</h2>",
+  "<p>Older homes reward a little prep. Clear countertops, remove cords and small appliances, and put away anything that makes an already compact room feel crowded. Open blinds fully, and check that porch furniture and landscaping look intentional. If the home has been updated in some places and not others, decide with your seller which areas to feature and which to show simply and honestly.</p>",
+  "<p>When you talk to a media company, ask about these points:</p>",
+  "<p>How do they handle lens choice in small rooms, and can they show examples? Do they blend exposures for windows? Will the shot list include detail frames and outbuildings? What is the delivery timeline for your date range, and what does the package cost for a home of this size? Get those answers in writing so there are no surprises after the shoot.</p>",
+  "<p>A historic home already has a story. The job of the photography and video is to let buyers see it clearly, without stretching, darkening or hiding what makes the house worth touring.</p>"
+ ]
+},
+{
+ slug: "how-to-choose-a-real-estate-media-company-in-tampa",
+ title: "How to Choose a Real Estate Media Company in Tampa (2026 Guide)",
+ h1: "How to Choose a Real Estate Media Company in Tampa",
+ description: "What Tampa agents should ask before hiring a real estate photo or video team: turnaround, licensing, drone credentials and the questions that reveal quality.",
+ market: "Tampa",
+ date: "2026-08-30",
+ readMins: 6,
+ excerpt: "Most agents pick a media company on price and turnaround alone. Those matter — but they are the two easiest things for a weak vendor to fake. Here is what actually separates the good ones.",
+ body: [
+  "<p>If you list property anywhere from South Tampa to Westchase, you have probably been burned at least once: photos that came back flat, a video that looked nothing like the walkthrough you imagined, or a turnaround that slipped past your MLS deadline. Choosing a media partner is a repeatable decision you will make dozens of times a year, so it is worth having a real checklist rather than picking whoever answered the phone.</p>",
+  "<h2>1. Ask what happens when the weather turns</h2>",
+  "<p>Tampa summers mean afternoon storms roll in on a schedule you cannot negotiate with. A team that shoots here full time plans around it — exteriors early, interiors through the middle of the day, drone up in the window before the cells build. Ask a prospective vendor directly: what is your reschedule policy, and who decides? If the answer is vague, you will be the one explaining the delay to your seller.</p>",
+  "<h2>2. Confirm the drone pilot is Part 107 certified</h2>",
+  "<p>Commercial drone work in the United States requires an FAA Part 107 remote pilot certificate. This is not optional and it is not a formality — much of Tampa sits under controlled airspace shelves from Tampa International and Peter O. Knight, which means certain flights need authorization before takeoff. A pilot who shrugs at that question is a liability attached to your listing.</p>",
+  "<h2>3. Get the licensing in writing</h2>",
+  "<p>This is the one that quietly costs agents the most. Who owns the images? Can you use them after the listing closes? Can the brokerage use them in a recruiting deck? Can the seller post them? Plenty of shops deliver beautiful files under a licence so narrow that reusing a photo six months later is technically a breach. Ask for the terms before the shoot, not after.</p>",
+  "<h2>4. Look at a full gallery, not a highlight reel</h2>",
+  "<p>Anyone can produce three good frames. Ask to see every image from a single recent shoot — all thirty or forty. That is where consistency shows up: whether the white balance holds from the kitchen to the primary bath, whether verticals stay straight, whether the twilight exterior matches the daytime set. A portfolio is a curated argument; a full gallery is evidence.</p>",
+  "<h2>5. Match the package to the price band</h2>",
+  "<p>A $325,000 townhouse in Seminole Heights and a $2.4M waterfront home on Davis Islands do not need the same media. Over-producing the first wastes the seller's money; under-producing the second costs them buyers. A good partner will tell you when you are buying too much, which is a useful signal about whether they are optimising for your outcome or their invoice.</p>",
+  "<h2>6. Ask how fast, and what “fast” includes</h2>",
+  "<p>Twenty-four hour turnaround means nothing if it excludes the video, or if revisions add three days. Ask what is delivered in that window, in what formats, and what a revision costs. The honest answer is usually a range, and a vendor willing to give you a range rather than a slogan is generally the one who hits it.</p>",
+  "<h2>The short version</h2>",
+  "<p>Price and speed are table stakes. Licensing, credentials, consistency across a full set, and judgement about what a property actually needs are what separate a vendor from a partner. Ask the six questions above and the field narrows quickly.</p>"
+ ]
+},
+{
+ slug: "real-estate-video-cost-st-petersburg",
+ title: "What Real Estate Video Costs in St. Petersburg, FL",
+ h1: "What Real Estate Video Actually Costs in St. Petersburg",
+ description: "A straight breakdown of real estate video pricing in St. Petersburg and the Gulf Beaches: what drives cost, what each tier includes, and when it is worth it.",
+ market: "St. Petersburg",
+ date: "2026-08-28",
+ readMins: 5,
+ excerpt: "Pricing pages tend to hide more than they explain. Here is what actually moves the number on a St. Pete listing video, and how to tell whether you are buying the right tier.",
+ body: [
+  "<p>Ask five agents in St. Petersburg what listing video costs and you will get five numbers that do not overlap. That is not because anyone is being dishonest — it is because “video” covers everything from a ninety-second vertical reel shot on a gimbal to a fully scripted, agent-led production with drone, lighting and licensed music. Here is what actually drives the number.</p>",
+  "<h2>Square footage matters less than you think</h2>",
+  "<p>A 1,400 sq ft bungalow in Old Northeast and a 2,600 sq ft home in Snell Isle often take a similar amount of time on site. What actually drives cost is the number of distinct spaces worth covering, how much furniture has to move, and whether the exterior needs more than one lighting condition.</p>",
+  "<h2>The real cost drivers</h2>",
+  "<p><strong>Drone coverage.</strong> Adds time on site plus a licensed pilot. Worth it for waterfront, large lots, and anything where location is the selling point — which in St. Pete is most of the good listings.</p>",
+  "<p><strong>Twilight.</strong> A twilight exterior means a second trip or a long wait for a fifteen-minute window. It photographs beautifully and it costs accordingly.</p>",
+  "<p><strong>Agent on camera.</strong> Shifts the shoot from documentary to directed. Needs a second angle, audio, and usually more takes than anyone expects. It also produces the content that markets <em>you</em>, not just the house — which is why it earns its place.</p>",
+  "<p><strong>Turnaround.</strong> Rush delivery is real work being reorganised around you, and it is priced that way.</p>",
+  "<h2>How to choose a tier</h2>",
+  "<p>The useful question is not “what does video cost” but “what is this listing's marketing budget as a fraction of the commission, and where does it do the most work?” On a beach condo where the view is the product, drone and twilight earn their keep. On an inland starter home, a tight vertical reel and strong stills will outperform an expensive cinematic piece that nobody watches to the end.</p>",
+  "<h2>What to check before you book</h2>",
+  "<p>Ask what is included in the base number, what the common add-ons cost, whether music is licensed, what formats you receive, and how many revisions are included. If those five answers come back clearly, the price is probably honest. If they come back vague, the number will grow after the shoot.</p>"
+ ]
+}
+];
+
+window.BLOG.push(
+{
+ slug: "drone-photography-rules-tampa-bay-listings",
+ title: "Drone Photography Rules Every Tampa Bay Listing Agent Should Know",
+ h1: "Drone Rules for Tampa Bay Listings",
+ description: "Controlled airspace, Part 107 and the practical limits on drone photography around Tampa and St. Pete, and what agents must confirm before a listing shoot.",
+ market: "Tampa",
+ date: "2026-08-26",
+ readMins: 5,
+ excerpt: "Half of Tampa Bay sits under controlled airspace. Here is what that means for your listing, and the one question that protects you if something goes wrong.",
+ body: [
+  "<p>Drone footage sells waterfront, acreage and location. It also happens to be the part of a shoot most likely to create a problem nobody notices until it does. If you list around Tampa Bay, a working understanding of the rules protects your seller, your brokerage and you.</p>",
+  "<h2>Commercial drone work requires certification</h2>",
+  "<p>Any drone flight for business purposes - and marketing a listing is unambiguously a business purpose - requires the pilot to hold an FAA Part 107 remote pilot certificate. Not a registration, not a hobby licence. Ask to see it. A legitimate operator will send it without hesitating.</p>",
+  "<h2>Much of the Bay is controlled airspace</h2>",
+  "<p>Tampa International, St. Pete-Clearwater International, Peter O. Knight, Albert Whitted and MacDill all project controlled airspace over large areas of the metro. Flying in those areas requires authorization, which for many locations is granted quickly through an automated system - but it has to actually be requested. A pilot who launches without checking is gambling with your listing.</p>",
+  "<h2>Practical limits that affect your shoot</h2>",
+  "<p>Altitude is capped at 400 feet above ground level in most circumstances. The aircraft must stay within visual line of sight. Flying directly over people who are not part of the operation is restricted. And near the beaches, wind off the Gulf in the afternoon regularly grounds flights that would have been fine at eight in the morning - one more reason exterior work gets scheduled early.</p>",
+  "<h2>Where you launch matters as much as where you fly</h2>",
+  "<p>Taking off from a public sidewalk, a neighbour's driveway or a beach access point can turn a routine shoot into a complaint. Florida has no blanket state law banning drone launches from public land, but individual municipalities and county parks across Pinellas and Hillsborough do restrict it, and beach access points are frequently posted. The clean answer is to launch and land on the listing property itself, with the seller's knowledge.</p>",
+  "<h2>Tell the seller before the day</h2>",
+  "<p>Neighbours notice drones. A seller who knows the flight is happening can mention it over the fence and defuse the whole thing; a seller caught unaware ends up fielding a complaint about a stranger flying a camera over the block. One sentence in the confirmation email prevents nearly all of it.</p>",
+  "<h2>What good drone coverage actually includes</h2>",
+  "<p>A useful drone set is not ten variations of the same overhead. It is a establishing wide that places the home in its neighbourhood, a mid-height three-quarter that shows roof condition and lot shape, a water or amenity frame if there is one, and a slow reveal for video. Four purposeful frames beat twenty circling ones, and they load faster on the MLS.</p>",
+  "<h2>The one question to ask</h2>",
+  "<p>Ask your media company whether they carry drone liability insurance, and for how much. It is the single question that separates operators who treat this as a profession from those treating it as a gadget. If the answer is a number and a certificate, you are in good hands.</p>"
+ ]
+},
+{
+ slug: "waterfront-listing-photography-st-petersburg",
+ title: "Shooting Waterfront Listings in St. Petersburg",
+ h1: "Shooting Waterfront Listings in St. Petersburg",
+ description: "Why waterfront homes in St. Pete need different scheduling than inland listings: sun angle, tide, window glare and the shooting windows that actually work.",
+ market: "St. Petersburg",
+ date: "2026-08-24",
+ readMins: 5,
+ excerpt: "A waterfront home photographed at the wrong hour looks like an inland home with a pond behind it. Timing is not a detail here - it is most of the job.",
+ body: [
+  "<p>Waterfront is the whole argument on a St. Pete listing. Buyers are paying for the view, the light and the water itself, which means the photography has to deliver all three. Inland scheduling logic does not transfer.</p>",
+  "<h2>Which way does the water face?</h2>",
+  "<p>This is the first question, before anything else. A west-facing dock on Boca Ciega Bay is a sunset property and should be shot in the evening. An east-facing seawall on Tampa Bay wants morning. Shoot either at the wrong end of the day and you get a silhouette where the selling point should be.</p>",
+  "<h2>Tide changes the frame more than people expect</h2>",
+  "<p>At low tide a seawall can show a metre of exposed, weed-streaked concrete and a dock that appears to be stranded. The same frame at high tide reads as clean, full and expensive. Tide tables are free and checking them takes a minute.</p>",
+  "<h2>Glare is the enemy of interiors here</h2>",
+  "<p>Waterfront interiors have a hard problem: the window is the feature, and it is also six stops brighter than the room. Getting both the furniture and the view correctly exposed means bracketing and careful blending, or supplemental lighting. A single exposure gives you either a blown-out white rectangle or a dim room - and either one throws away the reason the house is worth what it is worth.</p>",
+  "<h2>Golden hour is shorter than you think here</h2>",
+  "<p>On the Gulf side the usable evening light collapses fast. There is roughly a forty-minute stretch where the sky still holds colour and the interior lights read warm against it, and then it is gone. A twilight exterior is not something you fit in at the end of a long shoot; it is its own appointment with its own arrival time.</p>",
+  "<h2>Include the water in the interior frames</h2>",
+  "<p>The instinct is to shoot rooms as rooms. On a waterfront listing the stronger choice is to compose so the water appears through the opening in as many frames as it honestly can, because that is what the buyer is paying for. It changes where you place the tripod: further back, lower, angled toward the glass rather than square to the wall.</p>",
+  "<h2>Salt air is hard on gear and on the house</h2>",
+  "<p>Practical note for the shoot day: windows on the water film over quickly. Ask the seller to have the glass cleaned on the water side the day before. It is the cheapest improvement available to a waterfront listing and it shows in every frame that matters.</p>",
+  "<h2>Build in a weather buffer</h2>",
+  "<p>Gulf afternoons in summer are unreliable. Booking a waterfront shoot with no fallback date is how a listing goes live with grey water under a flat sky. Ask for the buffer up front.</p>"
+ ]
+}
+);

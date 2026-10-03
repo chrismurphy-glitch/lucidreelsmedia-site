@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /portfolio-index.html
+
+Sitemap: https://lucidreelsmedia.com/sitemap.xml

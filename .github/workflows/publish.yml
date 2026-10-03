@@ -1,0 +1,37 @@
+name: Build and publish
+
+# Fires only when the blog data changes - i.e. when a post PR is merged.
+# The rebuild commit touches generated HTML, never js/blog-data.js, so this
+# cannot retrigger itself.
+on:
+  push:
+    branches: [main]
+    paths: ['js/blog-data.js']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild the blog pages, sitemap and About teaser
+        run: node tools/build-blog.js .
+
+      - name: Quality gate - blocks the publish if anything is wrong
+        run: node tools/qa-blog.js .
+
+      - name: Commit the rebuilt site
+        run: |
+          git config user.name  "Lucid Reels Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ':!.post-slug' ':!.post-title' ':!.post-pr.md'
+          git diff --staged --quiet && echo "nothing to rebuild" && exit 0
+          git commit -m "Rebuild site after blog change"
+          git push
