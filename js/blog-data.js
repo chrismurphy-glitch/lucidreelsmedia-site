@@ -4,6 +4,42 @@
    Newest post first. date = ISO yyyy-mm-dd. */
 window.BLOG = [
 {
+ slug: "photo-day-prep-checklist-tampa",
+ title: "Photo Day Prep Checklist for Tampa Listings",
+ h1: "The Photo Day Prep Checklist for Tampa Listings",
+ description: "A practical prep checklist for Tampa listing agents: what sellers should fix before photo day, how to handle lanais, pools, humidity and afternoon storms.",
+ market: "Tampa",
+ date: "2026-10-05",
+ readMins: 4,
+ excerpt: "Most of what separates an average listing gallery from a strong one is decided before the photographer arrives. This checklist covers the prep steps that matter most for Tampa homes, from lanais and pools to humidity and afternoon weather.",
+ body: [
+  "<h2>Why prep decides the quality of the shoot</h2>",
+  "<p>A good photographer can correct exposure, straighten vertical lines and recover a flat sky. They cannot clear a cluttered kitchen or make a green pool look inviting without cutting into the time set aside for shooting the rest of the house. Whether the listing is a South Tampa ranch, a townhome near downtown or a new build in the suburbs, the same rule holds: <strong>the cleaner and simpler the house is when the photographer walks in, the better every image will look.</strong></p>",
+  "<p>Agents often assume the seller understands what photo day involves. Most do not. A short written checklist sent two or three days ahead saves you from arriving to find a full dish rack and a dog bed in every room.</p>",
+  "<h2>Two days before: the walkthrough</h2>",
+  "<p>Do a quick walkthrough yourself, or ask the seller to video the house on a phone. You are looking for the things a camera exaggerates, and a wide-angle lens exaggerates a lot.</p>",
+  "<p>Ask the seller to clear kitchen counters down to one or two items, and to empty the sink. In bathrooms, put away toothbrushes, razors, bottles and bath mats, and close the toilet lid. Remove magnets and papers from the refrigerator. Take personal photos off walls and shelves where practical, since they pull the eye away from the room itself.</p>",
+  "<p>Check the floors too. Pet bowls, shoes, cords and small rugs that curl at the edges all show up clearly. Wide-angle photos make rooms look more open, and loose items on the floor work against that.</p>",
+  "<h2>Florida-specific details to handle</h2>",
+  "<p>Tampa homes have features that need attention before a shoot.</p>",
+  "<p><strong>Lanai and screens.</strong> Check the screen enclosure for tears, sagging panels and heavy dirt. Screens read as haze in a photo, and a dirty enclosure can make the whole backyard look dull. Sweep the floor, wipe down the furniture and put away cushions that are mildewed or faded.</p>",
+  "<p><strong>Pool and spa.</strong> Have the pool service come before the shoot, not after. Skim debris, brush the walls and check that the water is clear. Remove pool toys, hoses and the cleaner from view. If the pool has a heater or waterfall feature, make sure it can be switched on for the shoot.</p>",
+  "<p><strong>Exterior.</strong> Mow, edge and blow off the driveway. Move trash bins into the garage or behind the house, and ask the seller to park cars off the street and out of the driveway. A pressure wash on a stained driveway or walkway often does more for the front photo than any amount of editing.</p>",
+  "<p><strong>Humidity.</strong> Cold air-conditioned rooms meeting humid air can fog windows and glass doors, especially if the house was kept very cool or a door was open. Ask the seller to avoid dropping the thermostat far below normal on the morning of the shoot, and wipe sliding doors just before the photographer starts the exterior shots.</p>",
+  "<h2>On the day: lights, fans and screens</h2>",
+  "<p>Photographers usually have their own preferences, so confirm them in advance. These are common ones.</p>",
+  "<p>Turn on all interior lights, including lamps, range hoods and under-cabinet lighting, and make sure every bulb works and the color looks consistent. Turn ceiling fans off, since blades blur in longer exposures. Open blinds and curtains to let in natural light, though some rooms may be photographed with the blinds adjusted to control glare. Turn off televisions and set screensavers aside, because black screens and reflections are distracting. Make the beds neatly, with simple bedding and no visible clutter underneath.</p>",
+  "<p>Pets should be out of the house or crated elsewhere. Besides the obvious hazard of an open door during a shoot, pet hair and odors have a way of showing up in the gallery.</p>",
+  "<h2>Scheduling around Tampa light and weather</h2>",
+  "<p>Time of day matters more than most agents expect. Check which direction the front of the house faces. A west-facing front elevation is often best photographed in the afternoon, while an east-facing one may look better in the morning. For a home with a backyard on the water or a pool, ask the photographer where the sun will be and plan the exterior order around it.</p>",
+  "<p>Summer weather in the Tampa Bay area often brings afternoon thunderstorms, so a morning slot can be safer for exteriors in the wetter months. Whatever the season, ask your media company how they handle weather: whether they reschedule exteriors separately, whether there is a fee for a second visit, and how long a reshoot usually takes. Get those answers before you book, not when the clouds roll in.</p>",
+  "<p>If you want twilight photos, build the schedule around sunset and make sure exterior and landscape lighting is working. Twilight is a time-sensitive add-on, so confirm it when you book.</p>",
+  "<h2>What to send your photographer ahead of time</h2>",
+  "<p>A short note makes the shoot more efficient. Include the address, gate or lockbox details, the best parking spot and who will be at the property. Tell them which features you want highlighted, such as a renovated kitchen, a screened lanai or a nearby park, and mention anything that cannot be changed, like a neighbor's boat or a construction site next door, so they can plan angles around it.</p>",
+  "<p>If the home will be photographed vacant or staged, say so. If a drone, video or floor plan is part of the package, list those too so the schedule allows enough time. A well-prepared house and a clear brief let the photographer spend the visit on composition instead of cleanup, and that shows in the final gallery.</p>"
+ ]
+},
+{
  slug: "photographing-historic-bungalows-st-petersburg",
  title: "Photographing Historic Bungalows in St. Petersburg",
  h1: "How to Photograph Historic Bungalows and Older Homes in St. Petersburg",
