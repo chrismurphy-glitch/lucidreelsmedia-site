@@ -1,0 +1,64 @@
+/* Lucid Reels Media — blog styles.
+   Rides on top of the site's own header/footer/typography. All selectors are
+   prefixed .lrmb- so nothing collides with Webflow classes or the site's
+   existing .lrm-cta animation hooks. */
+:root{--lrmb-gold:#D4AF37;--lrmb-gold-dim:#7C6828;--lrmb-panel:#100F0C;
+  --lrmb-line:#2B2620;--lrmb-text:#EFEAE0;--lrmb-mute:#948C7E}
+
+.section-blog,.section-about-blog{background:#070707;color:var(--lrmb-text)}
+
+.lrmb-eyebrow{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--lrmb-gold);font-weight:600;margin:0 0 14px}
+.lrmb-title{font-family:'Bebas Neue',Impact,sans-serif;font-size:clamp(38px,6vw,68px);
+  line-height:.98;letter-spacing:.02em;margin:0 0 18px;font-weight:400;color:var(--lrmb-text);
+  max-width:22ch;text-wrap:balance}
+.lrmb-sub{font-family:'Inter',sans-serif;color:var(--lrmb-mute);max-width:62ch;
+  margin:0 0 38px;font-size:15px;line-height:1.65}
+
+/* cards */
+.lrmb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.lrmb-card{display:flex;flex-direction:column;background:var(--lrmb-panel);
+  border:1px solid var(--lrmb-line);border-radius:3px;padding:26px;text-decoration:none;
+  color:inherit;transition:border-color .2s ease,transform .2s ease}
+.lrmb-card:hover,.lrmb-card:focus-visible{border-color:var(--lrmb-gold-dim);transform:translateY(-3px);outline:none}
+.lrmb-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-family:'Inter',sans-serif;
+  font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--lrmb-gold);
+  font-weight:600;margin-bottom:12px}
+.lrmb-meta .dot{color:var(--lrmb-gold-dim)}
+.lrmb-meta time{color:var(--lrmb-mute);font-weight:500;letter-spacing:.1em}
+.lrmb-card h3{font-family:'Bebas Neue',Impact,sans-serif;font-size:27px;line-height:1.08;
+  letter-spacing:.02em;margin:0 0 10px;font-weight:400;color:var(--lrmb-text);text-wrap:balance}
+.lrmb-card p{font-family:'Inter',sans-serif;margin:0;color:var(--lrmb-mute);font-size:13.5px;line-height:1.62}
+.lrmb-more{font-family:'Inter',sans-serif;margin-top:18px;font-size:11.5px;letter-spacing:.13em;
+  text-transform:uppercase;font-weight:600;color:var(--lrmb-gold)}
+
+/* buttons */
+.lrmb-actions{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
+.lrmb-btn{display:inline-block;padding:14px 24px;border-radius:2px;text-decoration:none;
+  font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  font-weight:600;background:var(--lrmb-gold);color:#070707;border:1px solid var(--lrmb-gold);
+  transition:opacity .2s ease}
+.lrmb-btn.ghost{background:transparent;color:var(--lrmb-gold)}
+.lrmb-btn:hover{opacity:.86}
+
+/* article */
+.lrmb-back{display:inline-block;margin-bottom:28px;color:var(--lrmb-gold);text-decoration:none;
+  font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600}
+.lrmb-back:hover{text-decoration:underline}
+.lrmb-body{font-family:'Inter',sans-serif;max-width:68ch;font-size:16.5px;line-height:1.75;color:var(--lrmb-text)}
+.lrmb-body p{margin:0 0 22px}
+.lrmb-body h2{font-family:'Bebas Neue',Impact,sans-serif;font-size:32px;letter-spacing:.03em;
+  font-weight:400;margin:40px 0 14px;color:var(--lrmb-gold)}
+.lrmb-body strong{color:#fff;font-weight:600}
+.lrmb-rule{height:1px;background:var(--lrmb-line);margin:46px 0}
+
+/* post CTA — note the lrmb- prefix: the site already uses .lrm-cta for its own
+   scroll animation and must not be touched */
+.lrmb-cta{border:1px solid var(--lrmb-gold-dim);background:rgba(212,175,55,.06);
+  border-radius:3px;padding:32px;max-width:68ch}
+.lrmb-cta h3{font-family:'Bebas Neue',Impact,sans-serif;font-size:30px;letter-spacing:.03em;
+  margin:0 0 10px;font-weight:400;color:var(--lrmb-text)}
+.lrmb-cta p{font-family:'Inter',sans-serif;color:var(--lrmb-mute);margin:0;font-size:14.5px;line-height:1.65}
+.lrmb-cta .lrmb-actions{margin-top:22px}
+
+@media (max-width:640px){.lrmb-grid{grid-template-columns:1fr}.lrmb-body{font-size:15.5px}}
