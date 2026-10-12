@@ -4,6 +4,42 @@
    Newest post first. date = ISO yyyy-mm-dd. */
 window.BLOG = [
 {
+ slug: "shooting-downtown-condo-listings-st-petersburg",
+ title: "Shooting Downtown St. Petersburg Condo Listings: Agent Guide",
+ h1: "How to Plan Photo and Video for Downtown St. Petersburg Condo Listings",
+ description: "How to plan photo and video for St. Petersburg condo listings: building access, HOA rules, balcony views, amenities and unit staging.",
+ market: "St. Petersburg",
+ date: "2026-10-12",
+ readMins: 4,
+ excerpt: "A condo shoot depends on elevators, association rules and the view from a single balcony, so planning matters more than it does for a house. This guide covers what to settle with the building, the unit and your media company before shoot day.",
+ body: [
+  "<h2>A condo shoot is not a small house shoot</h2>",
+  "<p>Agents often book condo media the same way they book a single-family home and then lose time to problems that have nothing to do with the unit. The photographer cannot park at the door, the elevator is reserved by a moving crew, or the property manager asks for paperwork nobody mentioned. Most of these problems are predictable, and all of them are cheaper to solve a few days ahead than on the day.</p>",
+  "<p>Downtown St. Petersburg listings add their own variables: mid-rise and high-rise buildings, shared amenity decks, and views that often decide whether a buyer wants to see the unit at all. Plan the shoot around those three things: access, the view and the unit.</p>",
+  "<h2>Settle building access before the day</h2>",
+  "<p>Call the property manager or association office as soon as the shoot is on the calendar. Ask these questions and write down the answers:</p>",
+  "<p><strong>Do vendors need to be registered or insured?</strong> Many associations ask commercial visitors for a certificate of insurance. Your media company should be able to supply one, but they need to know the exact name and wording the building requires.</p>",
+  "<p><strong>Can the elevator be reserved?</strong> Camera cases, tripods and lighting gear move slowly. A freight or service elevator, if the building has one, keeps the crew out of residents' way.</p>",
+  "<p><strong>Where does a vendor park?</strong> Ask about guest parking, loading zones and any garage height limits. Send the photographer the gate code or the name to give the front desk.</p>",
+  "<p><strong>Are there restrictions on filming common areas?</strong> Some buildings allow photography of the lobby and pool deck. Others require approval, or limit the hours. Get permission in writing if you plan to show amenities.</p>",
+  "<h2>Treat the view as the headline, and shoot it honestly</h2>",
+  "<p>For many condos the view is the main selling point, which makes the timing of the shoot a real decision. A west-facing balcony will photograph very differently at midday than it will an hour before sunset. Ask the seller which light the unit is known for, then talk with your photographer about when to schedule.</p>",
+  "<p>Interior photos of a bright window are hard. If the exposure is set for the room, the view blows out to white; if it is set for the view, the room goes dark. A good photographer blends exposures or adds light so the room and the window both look natural. Ask to see an example of a window view in a finished interior photo before you book.</p>",
+  "<p>Keep the view truthful. Replacing a sky or editing out a neighboring building might make a photo look better, but it can mislead a buyer who then stands on the actual balcony. Accurate images protect you from complaints at the showing. If a twilight shot of the building exterior or the skyline from the balcony would help the listing, plan it as a separate window of time, because it will not happen during the afternoon interior session.</p>",
+  "<h2>Cover the amenities without intruding on residents</h2>",
+  "<p>Pool decks, fitness rooms, club rooms and rooftop spaces can help a condo stand out from similar units. They are also shared spaces where people live. Ask the building when those areas are quietest and plan the amenity shots for that time. Avoid including residents in frame, and check that the association is comfortable with the shots you intend to use in marketing.</p>",
+  "<p>For video, a short sequence that follows the buyer's route works well: the entrance, the elevator, the hallway, the front door of the unit. It answers the question buyers are quietly asking, which is what it feels like to come home here. If the building does not allow filming in some of those spaces, say so up front so the video plan can be adjusted rather than improvised.</p>",
+  "<h2>Prepare the unit for a small footprint</h2>",
+  "<p>Condos are compact, so clutter and awkward angles show quickly. Before the shoot, ask the seller or occupant to do the following:</p>",
+  "<p>Clear kitchen counters, bathroom surfaces and the balcony. Put away personal items, mail and anything on the refrigerator door. Open the blinds and curtains to the same height, and turn on every light. Switch ceiling fans off, because moving blades blur in photos. Move cars and bikes if the unit has a deck-level parking space or storage that will be seen.</p>",
+  "<p>Balconies deserve particular attention. Wipe down the railing and the glass, and keep furniture to a simple arrangement that shows how the space can be used. If hurricane shutters or window film are installed, make sure they are open or retracted so the view and the light are visible.</p>",
+  "<h2>Questions to ask your media company</h2>",
+  "<p>When you request a quote for a condo, tell the company the building name, the floor, and any known access rules. Then ask:</p>",
+  "<p>Can you provide the insurance certificate the building needs? How much time should I allow for a unit of this size, and how does that change if we add amenities or a twilight shot? Do you include a floor plan or measurements, and are they suitable for the MLS? What will the drone be allowed to do near an occupied building, and who confirms permission? Ask for the range of options and what affects the cost, rather than assuming one flat package covers a building shoot.</p>",
+  "<p>A condo listing rewards preparation. When the access is arranged, the unit is ready and the view is scheduled in the right light, the shoot itself is straightforward, and the finished media does the job of getting buyers through the door.</p>"
+ ]
+},
+{
  slug: "photo-day-prep-checklist-tampa",
  title: "Photo Day Prep Checklist for Tampa Listings",
  h1: "The Photo Day Prep Checklist for Tampa Listings",
