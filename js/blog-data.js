@@ -4,6 +4,34 @@
    Newest post first. date = ISO yyyy-mm-dd. */
 window.BLOG = [
 {
+ slug: "photographing-downtown-condo-listings-st-petersburg",
+ title: "Photographing Downtown St. Petersburg Condo Listings",
+ h1: "How to Photograph Downtown St. Petersburg Condo Listings",
+ description: "Condo listings in downtown St. Petersburg come with building rules, tricky glass and view exposures. Here is how agents can plan a shoot that sells the unit.",
+ market: "St. Petersburg",
+ date: "2026-10-26",
+ readMins: 4,
+ excerpt: "A downtown St. Petersburg condo is sold on its view, its layout and its building, and each of those brings its own photography challenges. This guide covers the planning steps that keep a condo shoot smooth and the listing honest.",
+ body: [
+  "<p>Condo listings are not shot like single-family homes. The association has a say, the units are compact, the glass is everywhere, and the buyer is purchasing a building and a location as much as a floor plan. A little planning before the shoot makes a visible difference in the final media.</p>",
+  "<h2>Start with the building, not the unit</h2>",
+  "<p>Photography access in a condo is governed by the association as much as by the seller. Before you book, call the property manager or front desk and ask a short list of questions. <strong>Are there rules on photography or videography in the building? Do vendors need to reserve the elevator? Are there set hours for outside contractors? Does the association require a certificate of insurance from the media company?</strong> Also ask whether the pool deck, lobby and fitness room can be photographed, and whether residents need to be absent.</p>",
+  "<p>Put the answers in your booking notes so the media team arrives with the right paperwork and a plan for parking, loading gear and reaching the unit. If drone footage of the building is part of the package, confirm with the association that it is allowed on the property before anyone shows up.</p>",
+  "<h2>Make the view work in the photos</h2>",
+  "<p>In most downtown condos, the view is the headline. It is also the hardest thing to expose. The room is far dimmer than the sky outside, so a basic single exposure gives you either a dark interior or a blown-out white window. Ask any provider you are considering how they handle this, and look at their sample galleries. You want windows that show real detail outside while the room still looks like a room, without a heavy, unnatural look.</p>",
+  "<p>Check which direction the unit faces and schedule around it. A west-facing living room can be harsh in the late afternoon, while an east-facing one may be at its best in the morning. Summer weather in Pinellas County changes quickly, so ask about the rescheduling policy if haze or storms are likely. Finally, keep the view honest. The photographs should show what a buyer sees from that floor and that unit, not from a higher balcony or the rooftop.</p>",
+  "<h2>Glass, glare and reflections</h2>",
+  "<p>Floor-to-ceiling windows, glass balcony railings and mirrored closet doors will all show anything the camera does. Before the shoot, turn off ceiling fans, switch on the lights the photographer asks for, and keep people out of the unit so no one appears in the reflections. Dirty glass is far more noticeable on camera than in person, so have the windows and sliding doors cleaned. Balcony glass can be hard to reach, so ask the building about its window-washing schedule and try to book the shoot right after a cleaning.</p>",
+  "<h2>Show the layout and the flow</h2>",
+  "<p>Condo rooms are compact, and an overly wide lens can make a unit look larger than it is. Buyers notice the difference at the showing, and it costs you credibility. A good photographer will show how the space connects, from the entry to the kitchen to the living area to the balcony, without distorting it. A video walkthrough or a floor plan helps buyers understand the sequence of rooms, which is difficult to do with stills alone.</p>",
+  "<p>Prepare the unit by clearing kitchen counters, removing personal items from bathrooms and putting away anything stored on the balcony. If the balcony is usable, set it up with a small table and chairs so it reads as another room.</p>",
+  "<h2>Sell the building and the location</h2>",
+  "<p>Condo buyers are evaluating the amenities and the walkability of downtown as well as the unit itself. Plan shots of the pool, the gym, the lobby, the entrance, and any assigned parking or storage that comes with the unit. Try to book amenity photography when the spaces are quiet. An exterior shot of the building near dusk shows its character and its relationship to the surrounding streets, and aerial or street-level images can place the building near the waterfront, parks and restaurants that buyers care about.</p>",
+  "<h2>A simple pre-shoot checklist</h2>",
+  "<p>Confirm the association's photography rules and any insurance requirements. Reserve the elevator if needed and arrange guest parking for the crew. Make sure access is set up with the front desk or lockbox. Have the unit clean, with the windows cleaned inside and out. Decide which amenities are part of the shoot and tell the media team in advance. Finally, ask your provider for ranges on turnaround and pricing for the services you want, such as stills, video, floor plans and twilight exterior images, so there are no surprises once the unit is booked.</p>"
+ ]
+},
+{
  slug: "photo-day-prep-checklist-tampa",
  title: "Photo Day Prep Checklist for Tampa Listings",
  h1: "The Photo Day Prep Checklist for Tampa Listings",
