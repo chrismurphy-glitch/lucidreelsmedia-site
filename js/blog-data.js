@@ -4,6 +4,38 @@
    Newest post first. date = ISO yyyy-mm-dd. */
 window.BLOG = [
 {
+ slug: "downtown-condo-photo-video-st-petersburg",
+ title: "Marketing Downtown St. Petersburg Condos With Photo and Video",
+ h1: "Marketing Downtown St. Petersburg Condos With Photo and Video",
+ description: "How to prepare a downtown St. Petersburg condo listing for photo and video: building access, views, amenities, and shot planning for agents.",
+ market: "St. Petersburg",
+ date: "2026-11-09",
+ readMins: 4,
+ excerpt: "A condo listing in downtown St. Petersburg is sold on the building, the view and the lifestyle as much as the unit itself. This post covers how to plan access, light and shot lists so the media shows all three accurately.",
+ body: [
+  "<p>Condo and high-rise listings behave differently from single-family homes, and the media plan should reflect that. The unit may be a modest footprint, but the buyer is also evaluating the lobby, the amenities, the view and the walk to the front door. A shoot that only covers the interior of the unit leaves most of that story untold.</p>",
+  "<h2>Start with the building, not the unit</h2>",
+  "<p>Before you book anything, contact the property manager or HOA. Many buildings have rules about when outside vendors can enter, where they park, which elevator they use and whether they need to be on a vendor list. Some require a certificate of insurance from the media company, and some require advance notice measured in days rather than hours. Ask early so a missing form does not cost you your preferred shoot day.</p>",
+  "<p>Also ask whether the building allows photography and video in common areas, and whether any areas need to be reserved. A freight elevator reservation, for example, can matter if the crew is carrying lighting and stabilizing equipment. Pass all of this to your media company in writing so the crew arrives knowing the rules.</p>",
+  "<h2>Plan the shoot around the view</h2>",
+  "<p>In downtown St. Petersburg, the view is often the headline feature, and it changes with the direction the unit faces and the time of day. Find out which way the main windows and balcony face and tell your photographer. A west-facing unit may look dim and flat in the morning and be flooded with light late in the day. An east-facing unit is the reverse.</p>",
+  "<p>Discuss timing with your media company rather than picking a slot on convenience alone. Ask how they handle bright windows, since balancing a dark interior against a bright exterior is a technical skill, not a given. The goal is a view that looks the way it does when a buyer stands in the room, neither blown out to white nor artificially dramatic.</p>",
+  "<p>Accuracy matters here. If a view is partly blocked, seasonal or likely to change because of nearby construction, do not let the photos imply otherwise. Buyers visit in person, and a view that disappoints at the showing costs you credibility. Show the real view well.</p>",
+  "<h2>Prepare the unit for tight spaces</h2>",
+  "<p>Smaller rooms show clutter quickly. Clear kitchen counters, remove items from the balcony except for deliberate furniture, and wipe the glass inside and out, since smudges on sliding doors show up in photos with a bright background. Turn off ceiling fans, and make sure every bulb in the unit is working and matches in color. If the unit is occupied, ask the owner to take down personal photos and move toiletries and cords out of sight.</p>",
+  "<p>Check the balcony too. Many buyers decide on outdoor space they can actually use, so show a seating arrangement that suggests how it fits. If the balcony is narrow, let the photos reflect that honestly rather than using a distorting angle.</p>",
+  "<h2>Shoot the amenities as their own set</h2>",
+  "<p>A pool deck, fitness room, lobby, rooftop terrace or club room can carry as much weight as the unit. Treat these as a separate part of the shot list and confirm permission for each. Ask the property manager for times when these areas are quiet, so residents are not in frame and are not disturbed. If a resident does appear in a shot, that is a privacy question to settle before the image is published.</p>",
+  "<p>For video, amenities give you useful transitions. A short path from the lobby to the elevator to the unit door helps an out-of-town buyer understand the arrival experience. It also answers practical questions such as where visitors come in and how far the unit is from parking.</p>",
+  "<h2>Show the neighborhood without overstating it</h2>",
+  "<p>Downtown buyers are often buying the location. Exterior photos of the building from street level, and a twilight shot when conditions allow, give the listing a strong lead image. Build a short list of nearby places you can verify, such as parks, restaurants, the waterfront path or cultural venues, and tell your media company which ones to feature. Keep claims about walkability and distance to things you have actually checked, and avoid language you cannot back up.</p>",
+  "<p>If you plan to use a drone for the building exterior, confirm the rules for the location in advance and ask whether your media company handles that permission. Not every downtown property is a straightforward flight.</p>",
+  "<h2>Questions to ask your media company</h2>",
+  "<p>When you book a condo shoot, ask a few direct questions. Can they provide proof of insurance if the building requires it? How do they handle strong window light? Do they recommend separate sessions for the unit interior and the building exterior? What will the deliverables include, and what is the range of turnaround and pricing for a package with amenities and video? Clear answers up front tell you whether they have worked in vertical buildings before.</p>",
+  "<p>A well-planned condo shoot protects your time and your seller's relationship with the building. Handle the access details first, plan around the light, and give the amenities and the surroundings the same attention as the unit.</p>"
+ ]
+},
+{
  slug: "photo-day-prep-checklist-tampa",
  title: "Photo Day Prep Checklist for Tampa Listings",
  h1: "The Photo Day Prep Checklist for Tampa Listings",
