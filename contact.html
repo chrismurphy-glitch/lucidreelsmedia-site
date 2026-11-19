@@ -25,7 +25,7 @@
   <link href="images/webclip.svg" rel="apple-touch-icon">
 <style>
 /* hero backdrop — matches the home page header */
-.lrm-herobg{position:relative;overflow:clip;}
+.lrm-herobg{position:relative;overflow:clip;margin-bottom:1.75rem;}
 .lrm-herobg>.lrm-hero-inner{position:relative;z-index:2;padding-bottom:1rem;}
 .lrm-herobg>.background{z-index:0;opacity:.3;background-image:url('images/Background.svg');background-position:50%;background-repeat:no-repeat;background-size:cover;position:absolute;inset:0;}
 .lrm-herobg>.header-opacity{z-index:1;background-image:linear-gradient(180deg,rgba(7,7,7,0),#070707);width:100%;height:3rem;position:absolute;inset:auto 0 0;pointer-events:none;}
@@ -102,8 +102,8 @@
     <main class="main-wrapper">
       <div class="contact-wrapper">
 <style>
-.lrm-book-sec{padding:2.5rem 0 4.5rem;}
-.lrm-book-head{text-align:center;padding:3.5rem 20px 2.4rem;}
+.lrm-book-sec{padding:0 0 4.5rem;}
+.lrm-book-head{text-align:center;padding:6rem 20px 3rem;}
 .lrm-book-head h1{font-family:'Bebas Neue',Impact,sans-serif;font-size:clamp(42px,7vw,86px);line-height:1;color:#fff;margin:0;text-transform:uppercase;letter-spacing:.03em;}
 .lrm-book-head h1 span{color:#D4AF37;}
 .lrm-book-head p{font-family:'Inter',Arial,sans-serif;color:#c9cdd6;font-size:16px;margin:14px auto 0;max-width:520px;}
@@ -164,6 +164,10 @@
 .lrm-quote blockquote{margin:0;font-family:'Inter',Arial,sans-serif;color:#e6e8ec;font-size:clamp(16px,2.1vw,19px);line-height:1.68;font-weight:400;}
 .lrm-quote cite{display:block;font-style:normal;margin-top:22px;font-family:'Inter',Arial,sans-serif;color:#fff;font-size:14px;font-weight:600;letter-spacing:.02em;}
 .lrm-quote cite span{display:block;color:#8d93a0;font-weight:400;font-size:12.5px;margin-top:5px;letter-spacing:.04em;text-transform:uppercase;}
+
+/* the navbar grows from 84px to 112px when it collapses at 991px, so the
+   headline needs more room above it there. (2026-11-19) */
+@media screen and (max-width:991px){.lrm-book-head{padding-top:8.75rem;padding-bottom:2.5rem;}}
 </style>
         <header class="section-contact-header">
           <div class="lrm-book-sec">
