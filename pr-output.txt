@@ -1,0 +1,22 @@
++ git checkout -- . ':!js/blog-data.js'
+++ cat .post-slug
++ SLUG=downtown-condo-photo-video-guide-st-petersburg
+++ cat .post-title
++ TITLE='Shooting Downtown St. Petersburg Condo Listings: Agent Guide'
++ git config user.name 'Lucid Reels Bot'
++ git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
++ git checkout -b post/downtown-condo-photo-video-guide-st-petersburg
+Switched to a new branch 'post/downtown-condo-photo-video-guide-st-petersburg'
++ git add js/blog-data.js
++ git commit -m 'Draft: Shooting Downtown St. Petersburg Condo Listings: Agent Guide'
+[post/downtown-condo-photo-video-guide-st-petersburg 6ea4b3d] Draft: Shooting Downtown St. Petersburg Condo Listings: Agent Guide
+ 1 file changed, 32 insertions(+)
++ git push -u origin post/downtown-condo-photo-video-guide-st-petersburg
+To https://github.com/chrismurphy-glitch/lucidreelsmedia-site
+ ! [rejected]        post/downtown-condo-photo-video-guide-st-petersburg -> post/downtown-condo-photo-video-guide-st-petersburg (fetch first)
+error: failed to push some refs to 'https://github.com/chrismurphy-glitch/lucidreelsmedia-site'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
